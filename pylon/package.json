@@ -1,8 +1,15 @@
 {
-    "name": "pylon",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "websocket": "^1.0.34"
-    }
+  "name": "pylon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "websocket": "^1.0.34"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
