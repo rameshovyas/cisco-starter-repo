@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+
+.banner{
+  display:flex;
+  background-color:  #50c6db;  
+  color:#fff;
+  justify-content:space-between;
+  
+}
+
+.brand{
+  color:#fff;
+  font-weight: 600; 
+}
+
+.bannerLeft{
+  display:flex;
+  justify-content: left;
+  margin-left: 20px;
+
+}
+
+.bannerRight{
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.container{
+  
+  width:100%;
+  
+}
+
+.cards{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em 0;
+  text-align: left;
+}
+.card {
+  width: 30%;
+  display: flex;
+  background: #50bb7a;
+  padding: .6em 1em .6em .6em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
+  border: solid 1px #ccc;
+}
+
+.card h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color:#fff;
+}
+
+.content p {
+  margin: 0;
+  font-size: 1em;
+  color: #fff;
+}
+
+.container  h1{
+  align-items: center;
+  
+}
